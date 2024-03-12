@@ -17,6 +17,9 @@
     padding: 30px !important;
     border-radius: 10px;
 }
+/* .container div{
+    margin: auto;
+} */
 
 .container img {
     display: flex;
@@ -113,5 +116,24 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+    .popup{
+        width: 50vw;
+        height: 60vh;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .popup{
+        width: 55vw;
+        height: 50vh;
+    }
+    .container div{
+    margin: auto;
+}
+
 
 }
